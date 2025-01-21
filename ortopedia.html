@@ -19,4 +19,84 @@
         header .logo {
             font-size: 24px;
             font-weight: bold;
-            color: #333
+            color: #333;
+        }
+        nav {
+            float: right;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 14px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x500');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .sections {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+        .sections .section {
+            width: 30%;
+            text-align: center;
+        }
+        .sections img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .sections h3 {
+            margin-top: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">DR. LEONARDO BETTINI</div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="patologie.html">PATOLOGIE</a>
+            <a href="interventi.html">INTERVENTI</a>
+            <a href="chi-sono.html">CHI SONO</a>
+            <a href="orari.html">ORARI</a>
+            <a href="contatti.html">CONTATTI</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Benvenuti su Ortopedia Toscana</h1>
+    </div>
+    <div class="sections">
+        <div class="section">
+            <img src="https://via.placeholder.com/300" alt="Spalla">
+            <h3>SPALLA</h3>
+        </div>
+        <div class="section">
+            <img src="https://via.placeholder.com/300" alt="Anca">
+            <h3>ANCA</h3>
+        </div>
+        <div class="section">
+            <img src="https://via.placeholder.com/300" alt="Ginocchio">
+            <h3>GINOCCHIO</h3>
+        </div>
+    </div>
+</body>
+</html>
